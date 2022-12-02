@@ -1,7 +1,10 @@
 <template>
   <div className="about">
+    <div ref="about-section">
     <h2>About Me</h2>
-    <div class = 'inner' ref="testBlock">
+    
+    <div class = 'inner' ref="about-section">
+      
       <p>
         
         Welcome! My name is Kevin Blanco.  
@@ -25,7 +28,9 @@
         </li>
         </ul>
       </p>
+      
     </div>
+  </div>
     </div>
 </template>
 
